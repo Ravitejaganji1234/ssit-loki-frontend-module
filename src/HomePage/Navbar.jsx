@@ -60,7 +60,7 @@ export default function Navbar() {
                 <div className="flex lg:flex-1">
                     <Link to="/dashboard" className="-m-1.5 p-1.5">
                         <span className="sr-only">Middleware</span>
-                        <img className="h-20 w-auto" src={MTLogo} alt="Middleware" />
+                        <img className="h-20 w-auto" src={MTLogo} alt="SSIT Cloud" />
                     </Link>
                 </div>
                 <div className="flex lg:hidden">
