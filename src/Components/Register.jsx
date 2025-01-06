@@ -54,7 +54,7 @@ const Register = () => {
             setEmailError("* Please fill in the email.");
             isValid = false;
         } else if (!emailPattern.test(email)) {
-            setEmailError("* Email must end with @ssit.com.");
+            setEmailError("* Email must end with @ssitcloud.com.");
             isValid = false;
         } else {
             setEmailError("");
