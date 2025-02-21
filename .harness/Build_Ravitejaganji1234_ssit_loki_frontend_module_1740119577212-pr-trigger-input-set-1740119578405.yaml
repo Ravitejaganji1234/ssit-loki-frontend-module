@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ravitejaganji1234_ssit_loki_frontend_module_1740119577212-pr-trigger-input-set
+  identifier: Build_Ravitejaganji1234_ssit_loki_frontend_module_1740119577212prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Practice
+  pipeline:
+    identifier: Build_Ravitejaganji1234_ssit_loki_frontend_module_1740119577212
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
