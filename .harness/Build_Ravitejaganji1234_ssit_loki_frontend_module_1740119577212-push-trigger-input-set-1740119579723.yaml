@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ravitejaganji1234_ssit_loki_frontend_module_1740119577212-push-trigger-input-set
+  identifier: Build_Ravitejaganji1234_ssit_loki_frontend_module_1740119577212pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Practice
+  pipeline:
+    identifier: Build_Ravitejaganji1234_ssit_loki_frontend_module_1740119577212
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
